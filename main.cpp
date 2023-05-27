@@ -106,7 +106,7 @@ int main() {
         if (jugadorActual == 1) {
             int palitosQuitados = maquina(palitos);
             palitos -= palitosQuitados;
-            cout << "La máquina quita " << palitosQuitados << " palitos." << endl;
+            cout << "La maquina quita " << palitosQuitados << " palitos." << endl;
             jugadorActual = 2;
         } else {
             int palitosQuitadosJugador = jugador(palitos);
@@ -123,7 +123,7 @@ int main() {
     if (jugadorActual == 1) {
         cout << "El jugador gana" << endl;
     } else {
-        cout << "La máquina gana" << endl;
+        cout << "La maquina gana" << endl;
     }
     cout << "Nodos visitados: " << contadorNodos << endl; // imprimir el número de nodos visitados
     return 0;
